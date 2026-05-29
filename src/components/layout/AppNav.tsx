@@ -20,8 +20,8 @@ export default function AppNav({ isDemo = false }: AppNavProps) {
     const prefix = isDemo ? '/demo' : '';
 
     const navItems = [
-        { href: `${prefix}/journal`, label: 'Journal', icon: PenLine },
         { href: `${prefix}/dashboard`, label: 'Dashboard', icon: LayoutDashboard },
+        { href: `${prefix}/journal`, label: 'Journal', icon: PenLine },
     ];
 
     const handleSignOut = async () => {
