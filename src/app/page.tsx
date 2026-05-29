@@ -60,7 +60,7 @@ export default function LandingPage() {
           <span className="text-xl font-bold gradient-text">JournAI</span>
         </Link>
         <div className="flex items-center gap-3">
-          <Link href="/demo/journal">
+          <Link href="/demo/dashboard">
             <Button variant="ghost" className="text-muted-foreground hover:text-foreground cursor-pointer">
               Try Demo
             </Button>
@@ -115,7 +115,7 @@ export default function LandingPage() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </Link>
-          <Link href="/demo/journal">
+          <Link href="/demo/dashboard">
             <Button size="lg" variant="outline" className="h-12 px-8 text-base bg-white/5 border-white/10 hover:bg-white/10 cursor-pointer">
               Try Demo
             </Button>
