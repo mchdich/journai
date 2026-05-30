@@ -5,7 +5,7 @@ import { createClient } from '@/lib/supabase/client';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { motion } from 'framer-motion';
-import { BookOpen } from 'lucide-react';
+import { BookOpen, Globe } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
@@ -97,7 +97,7 @@ export default function LoginPage() {
                         className="w-full mb-4 h-11 bg-white/5 border-white/10 hover:bg-white/10 cursor-pointer"
                         onClick={handleGoogleSignIn}
                     >
-                        <Chrome className="h-4 w-4 mr-2" />
+                            <Globe className="h-4 w-4 mr-2" />
                         Continue with Google
                     </Button>
 
